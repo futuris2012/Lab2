@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="language">Язык :</string>
+    <string name="langEN">Английский</string>
+    <string name="langRU">Русский</string>
+    <string name="meter">Метр</string>
+    <string name="feet">Фут</string>
+    <string name="kilometer">Километр</string>
+    <string name="mile">Миля</string>
+    <string name="santimeter">Сантиметр</string>
+    <string name="inch">Дюйм</string>
+
+</resources>

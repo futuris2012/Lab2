@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Lab2</string>
+    <string name="language">Language :</string>
+    <string name="langEN">English</string>
+    <string name="langRU">Russian</string>
+    <string name="meter">Meter</string>
+    <string name="feet">Feet</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="mile">Mile</string>
+    <string name="santimeter">Santimeter</string>
+    <string name="inch">Inch</string>
+
+
 </resources>
