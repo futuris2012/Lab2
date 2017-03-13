@@ -10,5 +10,8 @@
     <string name="santimeter">Santimeter</string>
     <string name="inch">Inch</string>
 
-
+    <string-array name="langs">
+        <item>@string/langEN</item>
+        <item>@string/langRU</item>
+    </string-array>
 </resources>
