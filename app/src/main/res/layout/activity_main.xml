@@ -43,17 +43,27 @@
 
 
     <EditText
+        android:gravity="right"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:id="@+id/editText"
         android:singleLine="true"
         android:inputType="number|numberDecimal" />
-
-    <RadioGroup
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="0.25">
+        android:orientation="horizontal"
+        >
+                                    <LinearLayout
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content">
 
         <RadioButton
             android:text="@string/meter"
@@ -98,6 +108,36 @@
             android:id="@+id/radioButton"
             android:layout_weight="1" />
     </RadioGroup>
-
-
+                                    </LinearLayout>
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:id="@+id/meter"></TextView>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:id="@+id/santimeter"></TextView>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:id="@+id/kilometer"></TextView>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:id="@+id/feet"></TextView>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:id="@+id/inch"></TextView>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:id="@+id/mile"></TextView>
+        </LinearLayout>
+</LinearLayout>
 </LinearLayout>

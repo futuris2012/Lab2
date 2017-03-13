@@ -10,5 +10,8 @@
     <string name="mile">Миля</string>
     <string name="santimeter">Сантиметр</string>
     <string name="inch">Дюйм</string>
-
+    <string-array name="langs">
+        <item>@string/langRU</item>
+        <item>@string/langEN</item>
+    </string-array>
 </resources>
